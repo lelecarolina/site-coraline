@@ -1,4 +1,73 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Emilys Candy', cursive;
+}
+
+.cabesalho {
     background-color: #611A98;
-    color: wh
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabesalho-imagem{
+    width: 10%;
+
+}
+
+.cabesalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.sinopse{ 
+    background-image: linear-gradient(#611A98,#9B4EE9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sinopse-div-conteudo{
+    width: 35%;
+}
+
+.titulo-coraline{
+    padding: 24px 0;
+}
+
+.estudantes-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudantes-titulo{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #cb90f8;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 70px;
 }
